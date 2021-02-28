@@ -24,6 +24,10 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        <dependency>
             <artifactId>pet-clinic-data</artifactId>
             <groupId>guru.springframework</groupId>
             <version>0.0.3-SNAPSHOT</version>
