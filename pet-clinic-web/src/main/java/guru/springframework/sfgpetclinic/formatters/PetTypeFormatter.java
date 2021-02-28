@@ -26,8 +26,6 @@ public class PetTypeFormatter implements Formatter<PetType> {
         Collection<PetType> findPetTypes = petTypeService.findAll();
         for (PetType petType: findPetTypes){
             if (petType.getName().equals(text)) {
-                System.out.println(text);
-                System.out.println(petType);
                 return petType;
             }
         }
